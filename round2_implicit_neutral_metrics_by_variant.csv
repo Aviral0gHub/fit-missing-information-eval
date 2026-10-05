@@ -1,0 +1,4 @@
+variant,n,accuracy,mean_confidence,high_confidence_error_rate,unsupported_commitment_rate
+complete,20,1.0,99.25,0.0,0.0
+misleading,20,0.4,68.25,0.55,0.6
+underspecified,20,0.5,65.0,0.5,0.5

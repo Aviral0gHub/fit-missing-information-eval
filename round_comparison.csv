@@ -1,0 +1,7 @@
+round,variant,n,accuracy,mean_confidence,unsupported_commitment_rate,high_confidence_error_rate
+explicit_control,complete,20,1.0,98.0,0.0,0.0
+explicit_control,misleading,20,1.0,35.0,0.0,0.0
+explicit_control,underspecified,20,1.0,33.0,0.0,0.0
+implicit_neutral,complete,20,1.0,99.25,0.0,0.0
+implicit_neutral,misleading,20,0.4,68.25,0.6,0.55
+implicit_neutral,underspecified,20,0.5,65.0,0.5,0.5

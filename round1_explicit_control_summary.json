@@ -1,0 +1,52 @@
+{
+  "model": "Qwen/Qwen3-4B-Instruct-2507",
+  "model_revision": null,
+  "n_examples": 60,
+  "overall_accuracy": 1.0,
+  "parse_errors": 0,
+  "metrics_by_variant": [
+    {
+      "variant": "complete",
+      "n": 20,
+      "accuracy": 1.0,
+      "mean_confidence": 98.0,
+      "high_confidence_error_rate": 0.0,
+      "unsupported_commitment_rate": 0.0
+    },
+    {
+      "variant": "misleading",
+      "n": 20,
+      "accuracy": 1.0,
+      "mean_confidence": 35.0,
+      "high_confidence_error_rate": 0.0,
+      "unsupported_commitment_rate": 0.0
+    },
+    {
+      "variant": "underspecified",
+      "n": 20,
+      "accuracy": 1.0,
+      "mean_confidence": 33.0,
+      "high_confidence_error_rate": 0.0,
+      "unsupported_commitment_rate": 0.0
+    }
+  ],
+  "decision_counts_by_variant": {
+    "complete": {
+      "INSUFFICIENT": 0,
+      "NO": 10,
+      "YES": 10
+    },
+    "misleading": {
+      "INSUFFICIENT": 20,
+      "NO": 0,
+      "YES": 0
+    },
+    "underspecified": {
+      "INSUFFICIENT": 20,
+      "NO": 0,
+      "YES": 0
+    }
+  },
+  "mean_confidence_drop_complete_to_underspecified": 65.0,
+  "mean_confidence_drop_complete_to_misleading": 63.0
+}
